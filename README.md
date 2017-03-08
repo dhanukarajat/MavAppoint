@@ -6,12 +6,19 @@ The Academic Advising System is designed for departments across the University o
 ###Scope###
 
 The scope of the project can be summarized as follows: 
+
 •	To provide system administrator the access to create login accounts for advisors and managing the schedules, if needed.
+
 •	To provide an interface for students to login using their student ID or as guest user.
+
 •	To prepare suitable schedule for the advisors. 
+
 •	To present a good user interface for creating, deferring, cancelling, editing, and updating the appointment schedule.
+
 •	To help students get an appointment with applicable and available advisors.
+
 •	To report concisely the advisor-student relationship by keeping a record of every required detail of every appointment that takes (will take) place between them. 
+
 
 ###Specific Requirements###
 
@@ -123,5 +130,6 @@ UC14: Write Feedback (Actor: Users, System: Academic Advising System)
 
 
 Skeleton Code provided by Dr. David Kung (Software Engineering Director, UT Arlington)
-Team members: Rajat Dhanuka, Ankita Bhargave, Akilesh Rajan, Milind Bhattacharya, Navaneet Phadnis and Sangram Bankar
+
+Team members: Rajat Dhanuka, Ankita Bhargave, Akilesh Rajan, Milind Bhattacharya and Sangram Bankar
 
