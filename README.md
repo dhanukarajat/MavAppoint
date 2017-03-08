@@ -76,30 +76,51 @@ R11: The system provides Help manuals for the users.
 ##Non-functional requirements##
 
 R1: The system should deploy easily in a user-friendly manner without any technical effort.
+
 R2: The system should be highly secure against attacks.
+
   R2.1: The Student IDs should be encrypted while storing in database. 
+  
   R2.2: The passwords should be hashed while storing in database.
+  
 R3: The system should have the similar look and feel of http://www.uta.edu.
+
 R4: The system should be easily scalable and adaptable to different Database Management Systems.  
+
 R5: The system should be well documented. The documents should be updated whenever the system encounters a change.
+
 
 
 **Abstract Use Cases**
 
-UC1: Create Advisor Account (Actor: Admin, System: Academic Advising System) 
-UC2: Delete Advisor Account (Actor: Admin, System: Academic Advising System) 
+UC1: Create Advisor Account (Actor: Admin, System: Academic Advising System)
+ 
+UC2: Delete Advisor Account (Actor: Admin, System: Academic Advising System)
+ 
 UC3: Allocate Students to Advisor (Actor: Admin, System: Academic Advising System) 
+
 UC4: Create Student Account (Actor: UTA student: Academic Advising System) 
+
 UC5: Log in (Actor: Account holder user, System: Academic Advising System) 
+
 UC6: Log Out (Actor: Account holder user, System: Academic Advising System) 
+
 UC7: Reset Password (Actor: Account holder user, System: Academic Advising System) 
+
 UC8: Schedule an Appointment (Actor: Student, System: Academic Advising System) 
+
 UC9: Cancel an Appointment (Actor: Student and Advisor, System: Academic Advising System) 
+
 UC10: Turn Off Notification (Actor: Student and Advisor, System: Academic Advising System) 
+
 UC11: View Appointment (Actor: Student, System: Academic Advising System) 
+
 UC12: Set Advisor Hours (Actor: Advisor, System: Academic Advising System) 
+
 UC13: Edit Advisor Hours (Actor: Advisor, System: Academic Advising System) 
+
 UC14: Write Feedback (Actor: Users, System: Academic Advising System) 
+
 
 Skeleton Code provided by Dr. David Kung (Software Engineering Director, UT Arlington)
 Team members: Rajat Dhanuka, Ankita Bhargave, Akilesh Rajan, Milind Bhattacharya, Navaneet Phadnis and Sangram Bankar
